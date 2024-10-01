@@ -42,7 +42,7 @@ async function ImageSearchContent({ searchParams, startIndex }) {
     return (
       <div className='flex flex-col justify-center items-center pt-10'>
         <h1 className='text-3xl mb-4'>
-          No results found for "{searchParams.searchTerm}"
+          No results found for &quot;{searchParams.searchTerm}&quot;
         </h1>
         <p className='text-lg'>
           Try searching the web or images for something else{' '}
