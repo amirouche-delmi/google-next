@@ -1,3 +1,5 @@
+'use client'
+
 import { Suspense } from 'react';
 import ImageSearchResults from '@/components/ImageSearchResults';
 import Link from 'next/link';
